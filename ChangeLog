@@ -1,0 +1,30 @@
+2017-11-27  Ralf Stubner  <ralf.stubner@r-institute.com>
+
+	* DESCRIPTION (Version): bump patch version
+
+	* src/fastLm.cpp (fastLmPure): Fix error in calculation of
+	std_err spotted by Douglas Bates
+
+	* .travis.yml: Enable Travis-CI
+
+2017-11-24  Ralf Stubner  <ralf.stubner@r-institute.com>
+
+	* inst/skeleton/rcpparrayfire_hello_world.Rd: Minor corrections
+
+2017-11-23  Ralf Stubner  <ralf.stubner@r-institute.com>
+
+	* opencl-beignet.df: Install from drat
+
+	* DESCRIPTION: Use Authors@R style
+
+2017-11-21  Ralf Stubner  <ralf.stubner@r-institute.com>
+
+	* src/fastRNG.cpp (fastRunif, fastRnorm): Check if device
+	supports doubles
+
+	* src/RcppArrayFireWrap.cpp: Add support for 4D arrays
+
+	* src/fastLm.cpp: fast and simple OLS solver
+
+	* vignettes/RcppArrayFire-introduction.Rmd: Start introductory
+	vignette

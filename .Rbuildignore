@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+opencl-beignet.df
+.editorconfig
+^docs$
+LICENSE
+^\.travis\.yml$
+^codecov\.yml$
+^inst/libs$

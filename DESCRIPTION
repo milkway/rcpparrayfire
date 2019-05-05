@@ -1,0 +1,29 @@
+Package: RcppArrayFire
+Type: Package
+Title: Rcpp integration for ArrayFire
+Version: 0.0.3.1
+Authors@R: as.person(c(
+    "Kazuki Fukui [aut]",
+    "Ralf Stubner <ralf.stubner@daqana.com> [aut, cre]"
+  ))
+Description: RcppArrayFire provides an Rcpp wrapper for the ArrayFire Library,
+ an open source library that can make use of GPUs and other accelerators via
+ CUDA or OpenCL. RcppArrayFire is not affiliated with or endorsed by
+ ArrayFire. The ArrayFire literal mark is used under a limited license
+ granted by ArrayFire the trademark holder in the United States and other
+ countries.
+License: GPL (>= 2)
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.4)
+LinkingTo: Rcpp
+SystemRequirements: C++11, ArrayFire libraries and header files (https://arrayfire.com/)
+URL: https://www.daqana.org/rcpparrayfire/, https://github.com/daqana/rcpparrayfire/
+BugReports: https://github.com/daqana/rcpparrayfire/issues
+RoxygenNote: 6.1.0
+Suggests: pkgKitten,
+    knitr,
+    rmarkdown,
+    testthat,
+    inline,
+    Matrix
+VignetteBuilder: knitr
